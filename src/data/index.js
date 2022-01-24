@@ -80,7 +80,22 @@ export const categoriesData = [
   },
   {
     id: 3,
-    categoryName: "Coming Soon",
+    categoryName: "Coming later",
     books: [bookTheMetropolis],
+  },
+  {
+    id: 4,
+    categoryName: "Trending",
+    books: [bookTheMetropolis, bookTheTinyDragon],
+  },
+  {
+    id: 5,
+    categoryName: "Favourties",
+    books: [bookOtherWordsForHome],
+  },
+  {
+    id: 6,
+    categoryName: "Wishlist",
+    books: [bookTheMetropolis, bookOtherWordsForHome],
   },
 ];
